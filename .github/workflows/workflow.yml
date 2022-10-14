@@ -3,10 +3,7 @@
 name: Sample App deploy
 ######
 # Controls when the workflow will run
-on:
-  push:
-      branches:
-        - main
+on: push
 
 env:
   AZURE_WEBAPP_NAME: "<Name of your webapp>"    # set this to your application's name

@@ -1,8 +1,5 @@
 name: Build
-on:
-  push:
-    branches:
-      - Master # or the name of your main branch
+on: push
 jobs:
   build:
     name: Build
